@@ -1,0 +1,72 @@
+.container{
+    display: grid;
+
+    margin: auto;
+    position: relative;
+    grid-template-columns:200px auto 400px;
+    grid-template-rows: 150px 200px 600px 200px auto;
+    gap: 10px;
+    grid-template-areas: 
+    "header  main  main"
+    "header  main  main"
+    "header  footer footer ";
+}
+
+ footer {
+    grid-area: footer;
+background-color: darkgrey;
+}
+ header {
+    grid-area: header;
+    background-color: rgb(192, 192, 231);
+    font-size: 30px;
+    
+ }
+  main {
+    grid-area:main ;
+    background-image: url(https://scontent.fcai20-6.fna.fbcdn.net/v/t1.6435-9/182248694_5688803597826321_1580288223012385164_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=2c4854&_nc_ohc=hN45lwr47kEAX92LXB9&_nc_ht=scontent.fcai20-6.fna&oh=00_AT8sempDX5Az-8dqaWy3si2GSionNT8QcIiCYBDREqTz3g&oe=630169F5);
+    background-color: brown;
+    background-position: right;
+    background-size: cover ;
+    font-size: 20px;
+    border: 30px;
+}
+ #tt {
+    margin-left: 500px;
+    
+    
+} 
+
+ footer {
+    font-size: 30px;
+    border-radius: 30px;
+
+ }
+ #tt:hover {
+    color:darkgray;
+
+
+ }
+ #qq:hover  {
+    color: darkred;
+    background-color: black;
+
+ }
+ #ss:hover  {
+    color: darkred;
+    background-color: black;
+
+ }
+ #oo:hover  {
+    color: darkred;
+    background-color: black;
+
+ }
+ #pp:hover {
+    color: darkred;
+    background-color: black;
+
+ }
+ #po:hover {
+    background-color: black;
+ }
