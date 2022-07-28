@@ -29,7 +29,6 @@ header {
     background-color: black;
     padding: 0 16px;
     width: auto;
-    /* margin-left: 300px; */
 }
 
 header li {
@@ -44,9 +43,8 @@ grid-area: main;
     width: 950px;
     justify-items: center;
     margin-left: 300px;
-
+    
 }
-
 #pr {
     color: blue;
 }
@@ -68,6 +66,8 @@ footer li {
 }
 img {
     width: 850px;
+    height: 250px;
+    transition: height 450ms ease-in-out;
 
 }
 
@@ -104,4 +104,7 @@ header {
 
 footer {
     border-radius: 50px;
+}
+img:hover {
+height: 300px;
 }

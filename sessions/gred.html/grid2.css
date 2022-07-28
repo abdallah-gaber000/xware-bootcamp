@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    grid-template-columns: 20px 400px ;
+    grid-template-rows: 150px 200px 600px 200px ;
+    gap: 10px;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "left right"
+    "footer footer";
+}
+h2 {
+    font-family: monospace;
+    text-align: center;
+
+}
+header {
+    background-color: dodgerblue;
+    grid-area: header;
+    
+}
+main {
+    background-color: aqua;
+    grid-area: main;
+}
+footer {
+    background-color: brown;
+    grid-area: footer;
+}

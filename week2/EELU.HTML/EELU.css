@@ -1,0 +1,71 @@
+.container {
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 100px auto 100px;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    grid-template-areas:
+        "header header header"
+        "main main  main"
+        "footer footer footer ";
+}
+header{
+    width: 100vw;
+    align-items: center;
+    background-color: aqua;
+
+}
+
+header img {
+    grid-area: header;
+}
+header ul{
+    grid-area: header;
+    display: inline;
+    background-color: white;
+    padding: 0 16px;
+    width: auto;
+    align-items: center;
+    background-color: wheat;
+}
+header li {
+    width: 30px;
+    display: inline;
+    padding: 40px;
+    margin-bottom: 50px; 
+}
+
+main {
+        grid-area: main;
+        width: 100vw;
+        justify-content: center;
+        /* margin-left: 200px; */
+        /* margin-top: 100px; */
+}
+
+
+footer {
+        grid-area: footer;
+        background-color:burlywood;
+        /* display: inline; */
+        width: auto;
+        padding: 0 16px;
+        
+}
+    
+
+img {
+    width: 90px;
+}
+footer p {
+    margin-left: 600px;
+    font-size: 30px;
+}
+
+main {
+    background-image: url(https://moodlelms.eelu.edu.eg/pluginfile.php/1/theme_moove/sliderimage1/1649150277/Moodle_LMS_2018%20%5BRecovered%5D-01.jpg);
+    width: ;
+/* margin-right: 3000px; */
+}

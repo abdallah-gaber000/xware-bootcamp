@@ -1,0 +1,64 @@
+header {
+    background-color:burlywood;
+    font-family: "Raleway",sans-serif;
+    
+
+}
+
+
+main {
+    background-image: url(https://scontent.fcai20-6.fna.fbcdn.net/v/t1.6435-9/182248694_5688803597826321_1580288223012385164_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=2c4854&_nc_ohc=hN45lwr47kEAX92LXB9&_nc_ht=scontent.fcai20-6.fna&oh=00_AT8sempDX5Az-8dqaWy3si2GSionNT8QcIiCYBDREqTz3g&oe=630169F5);
+/* background-position: right; */
+background-size: cover top;
+/* margin: left 50px; ; */
+
+}
+footer {
+    background-color:burlywood ;
+    font-family: "Raleway",sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#aa {
+    
+    
+    /* float: left; */
+
+}
+
+#guess {
+    margin-left: 700px;
+    
+}
+#name{
+    margin-left: 700px;
+}
+#ab {
+    margin-left: 700px;
+}
+#cb {
+    margin-left: 700px;
+}
+#qq {
+    margin-left: 300px;
+}
+#ss {
+    margin-left: 500px;
+}
+#oo {
+    margin-left: 700px;
+}
+#pp {
+    margin-left: 900px;
+    top: 500px;
+}
+a {
+    color: black;
+}
+ #po {
+    font-size:large;
+    font-weight: 300px;
+ }
+ 

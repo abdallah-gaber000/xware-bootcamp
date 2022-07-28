@@ -1,0 +1,32 @@
+body {
+background-image:  url(https://grin.co/wp-content/uploads/2022/05/eTail.webp);
+
+}
+.contanir {
+    align-items: flex-start;
+    display: flex;
+}
+h1 {
+    padding: 30px;
+}
+h1:hover {background-color: bisque;
+    
+}
+
+    
+
+a {
+    color: black;
+
+}
+h3 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+
+#ss {
+    text-align: center;
+    margin: bottom 20px; ;
+} 

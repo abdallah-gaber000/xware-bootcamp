@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flex</title>
+    <link href="flex.css" rel="stylesheet" />
+    <link
+      href="https://f...content-available-to-author-only...s.com/css?family=Roboto+Mono"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Inline-flex-->
+    <!-- <h1>Display : inline-flex</h1>
+    <div class="container" id="flex">
+      <div class="box">
+        <h2>1</h2>
+      </div>
+      <div class="box">
+        <h2>2</h2>
+      </div>
+      <div class="box">
+        <h2>3</h2>
+      </div>
+    </div> -->
+    <!--flex-->
+    <!-- <h1>Display: flex</h1>
+    <div class="container" id="block">
+      <div class="box">
+        <h2>1</h2>
+      </div>
+      <div class="box">
+        <h2>2</h2>
+      </div>
+      <div class="box">
+        <h2>3</h2>
+      </div> -->
+    <!-- </div> -->
+
+    <!-- /////////////////////////////////////////////////////////////////// -->
+
+    <!--justify content-->
+    <!-- <h1>Flex Start</h1>
+    <div class="container" id="flexstart">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <h1>Flex End</h1>
+    <div class="container" id="flexend">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <h1>Center</h1>
+    <div class="container" id="center">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <h1>Space Around</h1>
+    <div class="container" id="spacearound">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <h1>Space Between</h1>
+    <div class="container" id="spacebetween">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div> -->
+
+    <!-- //////////////////////////////////////////////////////////// -->
+    <!-- align-items-->
+    <!-- <h1>Flex Start</h1>
+    <div class="container" id="flexstart">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
+    </div>
+    <h1>Flex End</h1>
+    <div class="container" id="flexend">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
+    </div>
+    <h1>Center</h1>
+    <div class="container" id="center">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
+    </div>
+    <h1>Baseline</h1>
+    <div class="container" id="baseline">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
+    </div>
+    <h1>Stretch</h1>
+    <div class="container" id="stretch">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
+    </div> -->
+
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+    <!--flex-grow-->
+    <!-- <h1>Step 1</h1>
+    <div id="top">
+      <div class="top side">
+        <h2>1</h2>
+      </div>
+      <div class="top center">
+        <h2>2</h2>
+      </div>
+      <div class="top side">
+        <h2>3</h2>
+      </div>
+    </div>
+    <h1>Step 2</h1>
+    <div id="middle">
+      <div class="middle side">
+        <h2>1</h2>
+      </div>
+      <div class="middle center">
+        <h2>2</h2>
+      </div>
+      <div class="middle side">
+        <h2>3</h2>
+      </div>
+    </div>
+    <h1>Step 3</h1>
+    <div id="bottom">
+      <div class="bottom side">
+        <h2>1</h2>
+      </div>
+      <div class="bottom center">
+        <h2>2</h2>
+      </div>
+      <div class="bottom side">
+        <h2>3</h2>
+      </div>
+    </div> -->
+
+    <!-- /////////////////////////////////////////////////////////////////////// -->
+    <!--flex-basis-->
+    <!-- <h1>Grows</h1>
+    <div id="grows">
+      <div class="grow side">
+        <h2>1</h2>
+      </div>
+      <div class="grow center">
+        <h2>2</h2>
+      </div>
+      <div class="grow side">
+        <h2>3</h2>
+      </div>
+    </div>
+    <h1>Shrinks</h1>
+    <div id="shrinks">
+      <div class="shrink side">
+        <h2>1</h2>
+      </div>
+      <div class="shrink center">
+        <h2>2</h2>
+      </div>
+      <div class="shrink side">
+        <h2>3</h2>
+      </div>
+    </div> -->
+
+    <!-- ///////////////////////////////////////////////////////////////////////// -->
+    <!--flex shorthand-->
+    <h1>Top</h1>
+    <div class="container" id="top">
+      <div class="side"></div>
+      <div class="center"></div>
+      <div class="side"></div>
+    </div>
+    <h1>Bottom</h1>
+    <div class="container" id="bottom">
+      <div class="side"></div>
+      <div class="center"></div>
+      <div class="side"></div>
+    </div>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////// -->
+    <!--flex-wrap-->
+    <!-- <h1>Flex-Wrap: Wrap</h1>
+    <div class="container" id="wrap">
+      <div class="box">
+        <h3>1</h3>
+      </div>
+      <div class="box">
+        <h3>2</h3>
+      </div>
+      <div class="box">
+        <h3>3</h3>
+      </div>
+      <div class="box">
+        <h3>4</h3>
+      </div>
+      <div class="box">
+        <h3>5</h3>
+      </div>
+    </div>
+    <h1>Flex-Wrap: No-Wrap</h1>
+    <div class="container" id="nowrap">
+      <div class="box">
+        <h3>1</h3>
+      </div>
+      <div class="box">
+        <h3>2</h3>
+      </div>
+      <div class="box">
+        <h3>3</h3>
+      </div>
+      <div class="box">
+        <h3>4</h3>
+      </div>
+      <div class="box">
+        <h3>5</h3>
+      </div>
+    </div>
+    <h1>Flex-Wrap: Wrap-Reverse</h1>
+    <div class="container" id="reverse">
+      <div class="box">
+        <h3>1</h3>
+      </div>
+      <div class="box">
+        <h3>2</h3>
+      </div>
+      <div class="box">
+        <h3>3</h3>
+      </div>
+      <div class="box">
+        <h3>4</h3>
+      </div>
+      <div class="box">
+        <h3>5</h3>
+      </div>
+    </div> -->
+
+    <!-- ///////////////////////////////////////////////////////////////////////// -->
+    <!--algin contnet-->
+    <!-- <h1>Flex Start</h1>
+    <div class="container" id="flexstart">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
+    </div>
+    <h1>Flex End</h1>
+    <div class="container" id="flexend">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
+    </div>
+    <h1>Center</h1>
+    <div class="container" id="center">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
+    </div>
+    <h1>Space Between</h1>
+    <div class="container" id="between">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
+    </div>
+    <h1>Space Around</h1>
+    <div class="container" id="around">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
+    </div>
+    <h1>Stretch</h1>
+    <div class="container" id="stretch">
+      <div class="left"></div>
+      <div class="center"></div>
+      <div class="right"></div>
+    </div> -->
+
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+    <!-- Flex-direction
+    <h1>Flex-Direction: Row</h1>
+    <div class="container" id="row">
+      <div class="box">
+        <h2>1</h2>
+      </div>
+      <div class="box">
+        <h2>2</h2>
+      </div>
+      <div class="box">
+        <h2>3</h2>
+      </div>
+      <div class="box">
+        <h2>4</h2>
+      </div>
+      <div class="box">
+        <h2>5</h2>
+      </div>
+    </div>
+    <h1>Flex-Direction: Row-Reverse</h1>
+    <div class="container" id="row-reverse">
+      <div class="box">
+        <h2>1</h2>
+      </div>
+      <div class="box">
+        <h2>2</h2>
+      </div>
+      <div class="box">
+        <h2>3</h2>
+      </div>
+      <div class="box">
+        <h2>4</h2>
+      </div>
+      <div class="box">
+        <h2>5</h2>
+      </div>
+    </div>
+    <h1>Flex-Direction: Column</h1>
+    <div class="container" id="column">
+      <div class="box">
+        <h2>1</h2>
+      </div>
+      <div class="box">
+        <h2>2</h2>
+      </div>
+      <div class="box">
+        <h2>3</h2>
+      </div>
+      <div class="box">
+        <h2>4</h2>
+      </div>
+      <div class="box">
+        <h2>5</h2>
+      </div>
+    </div>
+    <h1>Flex-Direction: Column-Reverse</h1>
+    <div class="container" id="column-reverse">
+      <div class="box">
+        <h2>1</h2>
+      </div>
+      <div class="box">
+        <h2>2</h2>
+      </div>
+      <div class="box">
+        <h2>3</h2>
+      </div>
+      <div class="box">
+        <h2>4</h2>
+      </div>
+      <div class="box">
+        <h2>5</h2>
+      </div>
+    </div>
+  </body>
+</html> -->
