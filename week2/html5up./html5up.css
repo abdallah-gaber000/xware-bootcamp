@@ -1,0 +1,238 @@
+
+
+.container{
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: 500px 500px 700px 600px 500px 200px;
+    height: 100vh;
+    width: 100vw; 
+    margin: auto;
+    grid-template-areas:
+        "header header header header"
+        "main1 main1 main1 main1"
+        "main2 main2 main2 main2"
+        "aside aside aside aside"
+        "co co co co"
+        "footer footer footer footer"; 
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+header {
+    grid-area: header;
+    background-image: linear-gradient(to top right,#76C88D , #5446B7);
+    width: 100vw;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.bb{
+        text-align: center;
+        padding-top: 50px;
+        padding-right: 50px;
+        font-size: 20px;
+    }
+.fa-cloud {
+        font-size: 90px;
+    }
+.bb a {
+        /* background-color: aliceblue;/ */
+        color: aliceblue;
+        text-decoration: none;
+}
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    text-align:center ;
+}
+
+button:hover {
+    background:rgba(255,255,255, 0.3);
+}
+/* /////////////////////////////////////////////////////////////////////////// */
+
+main {
+    grid-area: main1;
+    width: 100vw;
+    height: 500px;
+}
+
+.yy img {
+    display: flex;
+    justify-self: right;
+}
+.aa {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.yy img {
+    padding-top: 20px;
+    padding-left: 200px;
+    border-radius: 50px;
+}
+.oo {
+    padding-left: 30px;
+}
+/* /////////////////////////////////////////////////////////////////////// */
+.icons {
+    display: flex;
+    justify-content: center;
+    grid-area: main2;
+    width: 100vw;
+    height: 700px; 
+    background-image: url(imgs/header.jpg);
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    
+}
+.ph {
+    width: 50vw;
+    height: 700px;
+}
+.ic {
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 700px;
+    font-size: 20px; 
+    flex-wrap: wrap;
+    margin-top: 200px;
+    /* display: flex; */
+    justify-content: center;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+     width: 40%;
+    height:400px ;
+    font-size: 100px;
+}
+.ic li {
+    list-style: none;
+    position: relative;
+    bottom:100px;
+    padding-left: 80px;
+}
+.ic i {
+font-size: 50px;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+aside {
+    grid-area: aside;
+    width: 100vw;
+    height: 600px;
+
+}
+hr {
+    margin-left:30px ;
+}
+.ex {
+    text-align: center;
+}
+img {
+    padding-left: 100px;
+}
+h2 {
+    padding-left: 100px;
+}
+p {
+    padding-left: 100px;
+}
+a {
+    padding-left: 180px;
+}
+button a:hover {
+    background:rgba(255,255,255, 0.3);
+}
+
+button {
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+    perspective: 1px;
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+.co {
+    grid-area:co;
+    width: 100vw;
+    height: 500px;
+    background-image: url(imgs/header.jpg);
+    grid-row-start: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+
+}
+#two {
+    padding-top: 80px;
+    text-align: center;
+}
+button {
+    display: inline;
+    /* border: solid white 5px; */
+    padding: 10px;
+    
+    /* padding-top:30px; */
+    /* margin-left: 60px; */
+
+}
+.bottonprimary a {
+    justify-self: center;
+    background-color: white !important;
+    color:#333;
+   
+}
+hr{
+    text-align: center;
+}
+.last{
+    width:1000px;
+    margin-left:200px ;
+}
+.bottonprimary:hover{
+    background: #333;
+    color: white;
+}
+/* /////////////////////////////////////////////////////////////////////////////////// */
+footer {
+    grid-area: footer;
+    height: 200px;
+    width: 100vw;
+    background-image: linear-gradient(to top right,#76C88D , #5446B7);
+}
+.vv {
+    display: flex;
+    justify-content: left; 
+    align-items: center;
+    list-style: none;
+    padding-top:30px;
+    padding-right: 3px;
+    color: black;
+    font-size: 25px;
+}
+.zz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top:30px;
+    border-left: solid rebeccapurple;
+}
+
+
+.zz li {
+    border-left: solid 1px;
+    display: inline-block;
+    line-height: 1em;
+    margin-left: 1em;
+    padding: 0 0 0 1em;
+}
+.zz a {
+    color: #333;
+}
+i {
+    color: #333;
+}

@@ -1,10 +1,11 @@
 body {
 background-image:  url(https://grin.co/wp-content/uploads/2022/05/eTail.webp);
 
-}
+ }
 .contanir {
-    align-items: flex-start;
+    /* align-items: flex-start; */
     display: flex;
+    width: 100vw;
 }
 h1 {
     padding: 30px;
@@ -13,7 +14,11 @@ h1:hover {background-color: bisque;
     
 }
 
-    
+.container2{
+    display: flex;
+    width: 100vw;
+
+}
 
 a {
     color: black;
@@ -21,12 +26,22 @@ a {
 }
 h3 {
     text-align: center;
+    align-content: flex-end;
+    display: block;
 }
 h5 {
     text-align: center;
+    align-content: flex-end;
+    display: block;
+
 }
 
 #ss {
     text-align: center;
     margin: bottom 20px; ;
 } 
+footer {
+    justify-content: center;
+    align-items: center;
+
+}

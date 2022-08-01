@@ -108,3 +108,6 @@ footer {
 img:hover {
 height: 300px;
 }
+body {
+    background-color: grey;
+}

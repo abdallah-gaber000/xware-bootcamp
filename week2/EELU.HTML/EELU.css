@@ -14,8 +14,8 @@
 header{
     width: 100vw;
     align-items: center;
-    background-color: aqua;
-
+    background-color: darkgray;
+    border-radius: 20px;
 }
 
 header img {
@@ -24,11 +24,11 @@ header img {
 header ul{
     grid-area: header;
     display: inline;
-    background-color: white;
     padding: 0 16px;
     width: auto;
     align-items: center;
-    background-color: wheat;
+    background-color:black;
+    border-radius: 20px;
 }
 header li {
     width: 30px;
@@ -48,24 +48,54 @@ main {
 
 footer {
         grid-area: footer;
-        background-color:burlywood;
+        background-color:darkgray;
         /* display: inline; */
-        width: auto;
-        padding: 0 16px;
+        width: 100vw;
+        /* padding: 0 16px; */
+        align-items: center;
         
 }
     
 
 img {
+    display: inline;
     width: 90px;
 }
 footer p {
     margin-left: 600px;
     font-size: 30px;
+    display: inline;
+    
 }
 
 main {
     background-image: url(https://moodlelms.eelu.edu.eg/pluginfile.php/1/theme_moove/sliderimage1/1649150277/Moodle_LMS_2018%20%5BRecovered%5D-01.jpg);
-    width: ;
+    /* width: ; */
 /* margin-right: 3000px; */
+}
+input {
+    font-size: 20px;
+    margin-top: 40px;
+}
+.ll:hover {
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.mm:hover {
+    background-color: antiquewhite;
+}
+.hh:hover {
+    background-color: antiquewhite;
+}
+.ss:hover {
+    background-color: antiquewhite;
+}
+.dd:hover {
+    background-color: antiquewhite;
+}
+.uu:hover  {
+    background-color: antiquewhite;
+}
+.yy:hover {
+    background-color: antiquewhite;
 }
